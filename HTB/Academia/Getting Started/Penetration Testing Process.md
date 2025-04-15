@@ -7,7 +7,7 @@ tags:
   - topic/academy/gettingStarted
 created: 2025-04-14T05:56
 lead: +++ Lead paragraph goes here +++
-modified: 2025-04-15T05:12
+modified: 2025-04-15T05:28
 status: TODO
 template-version: "2"
 template_type: Course Note
@@ -48,22 +48,25 @@ We can use the -sC parameter to specify that Nmap scripts should be used to try 
 ![](attachments/Penetration%20Testing%20Process-20250415.png)
 
 ### SMB
+SMB allows users and administrators to share folders and make them accessible remotely by other users. smbclient can interact with SMB shares. The -L flag retrieves a list of available shares on the remote host while -N suppresses the password prompt
 
+![](attachments/Penetration%20Testing%20Process-20250415-1.png)
 
 ---
 
 ## **Practice Questions**
 <!-- Flashcard style - Can be parsed by Obsidian plugins like Obsidian CardBoard or Obsidian Recall -->
 
-**Q**:
-**A**:
+**Q**:  What is the version of the service on port 8080? 
+**A**: Apache Tomcat!
+![](attachments/Screenshot%202025-04-15%20at%204.24.30%20AM.png)
 
-**Q**:
-**A**:
+**Q**: Non-default port the telnet service is running on
+**A**: 2323
 
 
-**Q**:
-**A**:
+**Q**: List SMB shares on target host. Connect to share as bob user. Once connected, access the folder called ‘flag’ and submit contents of the flag.txt file
+**A**: ![](attachments/Screenshot%202025-04-15%20at%204.56.56%20AM.png)
 
 **Q**:
 **A**:
@@ -91,19 +94,13 @@ We can use the -sC parameter to specify that Nmap scripts should be used to try 
 ---
 
 ## **External Resources**
-- [🔗 Related Video / Blog](https://example.com)
-- [📘 Tool Docs](https://example.com)
+- [Getting started writeup](https://medium.com/@joshthedev/step-5-getting-started-a586c57af17d)
 
 ---
-
-# 📚 Back Matter
-
-**Source**  
-- based_on: 
 
 ---
 
 ## ✅ Tasks
-- [ ] 
+- [ ] Create Flashcards
 
 ---
