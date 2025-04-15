@@ -7,7 +7,7 @@ tags:
   - topic/academy/gettingStarted
 created: 2025-04-14T05:56
 lead: +++ Lead paragraph goes here +++
-modified: 2025-04-15T05:28
+modified: 2025-04-15T05:33
 status: TODO
 template-version: "2"
 template_type: Course Note
@@ -20,7 +20,7 @@ uuid: C3D3C304-DDC4-4AAD-8074-4E6686477042
 
 ## Infosec Overview
 <!-- Overview Of What Will Be covered in This Course -->
-
+<!-- In order to take better notes, orientate yourself on someone who already took the kind of notes you want to have and learn how they did it -->
 ##  
 <!--- Header For Each Page Your READ With The following
 
@@ -51,6 +51,12 @@ We can use the -sC parameter to specify that Nmap scripts should be used to try 
 SMB allows users and administrators to share folders and make them accessible remotely by other users. smbclient can interact with SMB shares. The -L flag retrieves a list of available shares on the remote host while -N suppresses the password prompt
 
 ![](attachments/Penetration%20Testing%20Process-20250415-1.png)
+
+
+## [Web Enumeration](https://academy.hackthebox.com/module/77/section/728)
+
+
+
 
 ---
 
